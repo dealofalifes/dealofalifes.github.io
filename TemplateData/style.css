@@ -153,6 +153,7 @@ body {
                 height: 100%;
                 width: 0%; /* updated via JS during loading */
                 background: url('progress-bar-full-dark.png') no-repeat left center;
+                background-size: 100% 100%;
             }
 
 /* ---------------------- */

@@ -14,6 +14,10 @@ body { padding: 0; margin: 0 }
     text-align: center;
     color: aliceblue;
     }
+#Koray-Avatar {
+    top: 10%;
+    background: url('Me.jpeg') no-repeat center
+}
 #unity-progress-bar-empty { width: 100%; bottom: 15%; right: 10%; height: 18px; margin-top: 10px; margin-left: 6.5px; background: url('progress-bar-empty-dark.png') no-repeat center }
 #unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
 #unity-footer { position: relative }

@@ -154,6 +154,18 @@ body {
                 background: url('progress-bar-full-dark.png') no-repeat left center;
             }
 
+                /* The loading bar container */
+                #unity-loading-screen .bottom-section .loading-bar #unity-progress-bar-empty {
+                    flex-grow: 1;
+                    margin-left: 20px;
+                    position: relative;
+                    height: 18px;
+                    /* Background image for an empty bar */
+                    background: url('progress-bar-empty-dark.png') no-repeat center;
+                    /* Scale the background image to fill the container */
+                    background-size: 100% 100%;
+                }
+
 /* ---------------------- */
 /* Existing Elements */
 /* ---------------------- */

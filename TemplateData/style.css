@@ -138,10 +138,12 @@ body {
             margin-left: 20px;
             position: relative;
             height: 18px;
-            width: 100%;
             /* Background image for an empty bar */
             background: url('progress-bar-empty-dark.png') no-repeat center;
+            /* Scale the background image to fill the container */
+            background-size: 100% 100%;
         }
+
 
             /* The fill indicator that will be updated via JS */
             #unity-loading-screen .bottom-section .loading-bar #unity-progress-bar-full {

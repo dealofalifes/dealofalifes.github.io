@@ -14,7 +14,7 @@ body { padding: 0; margin: 0 }
     text-align: center;
     color: aliceblue;
     }
-#unity-progress-bar-empty { width: 90%; height: 18px; margin-top: 10px; margin-left: 6.5px; background: url('progress-bar-empty-dark.png') no-repeat center }
+#unity-progress-bar-empty { width: 900px; bottom: 10%; left: 10%; height: 18px; margin-top: 10px; margin-left: 6.5px; background: url('progress-bar-empty-dark.png') no-repeat center }
 #unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
 #unity-footer { position: relative }
 .unity-mobile #unity-footer { display: none }

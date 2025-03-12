@@ -141,7 +141,7 @@ body {
             /* Background image for an empty bar */
             background: url('progress-bar-empty-dark.png') no-repeat center;
             /* Scale the background image to fill the container */
-            background-size: 100% 100%;
+            background-size: 2048px 100%;
         }
 
 
@@ -153,7 +153,7 @@ body {
                 height: 100%;
                 width: 0%; /* updated via JS during loading */
                 background: url('progress-bar-full-dark.png') no-repeat left center;
-                background-size: 100% 100%;
+                background-size: 2048px 100%;
             }
 
 /* ---------------------- */

@@ -139,6 +139,7 @@ body {
             margin-left: 20px;
             position: relative;
             height: 18px;
+            width: 100%;
             /* Background image for an empty bar */
             background: url('progress-bar-empty-dark.png') no-repeat center;
         }

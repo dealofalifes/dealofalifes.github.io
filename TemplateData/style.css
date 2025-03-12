@@ -121,7 +121,6 @@ body {
     }
 
         #unity-loading-screen .bottom-section .unity-logo {
-            left: 10%;
             width: 154px; /* adjust as needed */
             height: 154px;
             flex-shrink: 0;

@@ -145,7 +145,7 @@
                   canvas.style.height = "600px";
               }
 
-              document.querySelector("#.loading-bar").style.display = "block";
+              document.querySelector(".loading-bar").style.display = "block";
 
               var script = document.createElement("script");
               script.src = loaderUrl;
@@ -153,7 +153,7 @@
                   createUnityInstance(canvas, config, (progress) => {
                       document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
                   }).then((unityInstance) => {
-                      document.querySelector("#.loading-bar").style.display = "none";
+                      document.querySelector(".loading-bar").style.display = "none";
                       document.querySelector("#unity-fullscreen-button").onclick = () => {
                           unityInstance.SetFullscreen(1);
                       };

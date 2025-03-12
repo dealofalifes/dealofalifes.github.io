@@ -149,11 +149,10 @@ body {
             #unity-loading-screen .bottom-section .loading-bar #unity-progress-bar-full {
                 position: absolute;
                 top: 0;
-                left: 0;
+                left: 25px;
                 height: 100%;
                 width: 0%; /* updated via JS during loading */
                 background: url('progress-bar-full-dark.png') no-repeat left center;
-                background-size: 2048px 100%;
             }
 
 /* ---------------------- */
